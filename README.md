@@ -1,94 +1,74 @@
-# CodeCleaner Pro - Static Version
+# 🧼 Code Clean
 
-Versão completamente estática do CodeCleaner Pro que funciona 100% no navegador sem necessidade de servidor.
+> Refine, organize and clean your code effortlessly.  
+> Static web app to help you remove the mess and keep only the best.
 
-## Características
+---
 
-- **100% Client-Side**: Funciona inteiramente no navegador
-- **Zero Dependencies**: Não requer servidor ou instalação
-- **Processamento Local**: Seus arquivos nunca saem do seu computador
-- **Suporte a ZIP**: Processa arquivos ZIP completos mantendo estrutura
-- **Interface Moderna**: Design responsivo com animações suaves
+## 🌐 What is Code Clean?
 
-## Linguagens Suportadas
+**Code Clean** is a minimal web tool designed to **clean and optimize source code** across multiple programming languages.  
+Whether it's removing `print()`, `warn()`, `error()`, or shortening variable names — Code Clean has your back.
 
-- Python (.py)
-- JavaScript/TypeScript (.js, .ts, .jsx, .tsx)
-- HTML/CSS (.html, .css)
-- Lua (.lua)
-- Java (.java)
-- C/C++ (.c, .cpp)
-- PHP (.php)
-- Ruby (.rb)
-- Go (.go)
-- Rust (.rs)
-- Arquivos ZIP (.zip)
 
-## O que é Removido
+---
 
-- **Logs**: console.log(), print(), System.out.println(), etc.
-- **Comentários**: // comentários, /* blocos */, # python, etc.
-- **Debug**: debugger, breakpoint(), pdb.set_trace(), etc.
-- **Warnings**: console.warn(), logging.warning(), etc.
-- **Linhas vazias**: Reduz espaçamento excessivo
+## ✨ Features
 
-## Instalação
+- 🧹 **Code Cleaner**  
+  Remove debug logs like `print`, `warn`, and `error`.
 
-1. Extraia os arquivos em qualquer servidor web
-2. Abra index.html em um navegador
-3. Pronto! Não há dependências ou configuração necessária
+- 🧠 **Short Var Abbreviation (BETA)**  
+  Automatically abbreviates long variable names.  
+  > ⚠️ May break code. Use with caution.
 
-### Servidor Local (Opcional)
+- ⚙️ **Toggle Functions Before Processing**  
+  Enable or disable individual cleanup options before processing your code.
 
-```bash
-# Python
-python -m http.server 8000
+- 🗂️ **Multi-language Support**  
+  Works with Lua, JavaScript, Python, and more.
 
-# Node.js
-npx serve .
+- 🧾 **Full Client-side**  
+  Static site powered by **HTML, CSS, and JS** only.  
+  No backend. No data stored. 100% local.
 
-# PHP
-php -S localhost:8000
-```
+---
 
-## Tecnologias
+## 🛠️ How to Use
 
-- **HTML5**: Estrutura semântica moderna
-- **CSS3**: Variáveis CSS, gradientes, animações
-- **JavaScript ES6+**: Modules, async/await, classes
-- **JSZip**: Processamento de arquivos ZIP
+1. Visit the site: [code-clean-alpha.vercel.app](https://code-clean-alpha.vercel.app/)
+2. Paste or upload your code file
+3. Choose which cleaning options to enable
+4. Click **"Process Code"**
+5. Download the cleaned version or copy it directly
 
-## Segurança
+---
 
-- Processamento 100% local
-- Nenhum arquivo é enviado para servidores
-- Código open-source auditável
-- Funciona offline após carregamento inicial
+## ⚠️ Disclaimer
 
-## Estrutura
+Abbreviation and cleaning tools are **experimental**.  
+Always **back up your code** before cleaning. We are not responsible for broken scripts.
 
-```
-static-build/
-├── index.html       # Interface principal
-├── styles.css       # Estilos customizados
-├── scripts.js       # Lógica de processamento
-└── README.md        # Este arquivo
-```
+---
 
-## Uso
+## 📁 Repository Info
 
-1. Arraste arquivos ou clique para selecionar
-2. Clique em "Processar Arquivos"
-3. Aguarde o processamento local
-4. Baixe o arquivo "clear.zip" com código limpo
+This README is part of the Code Clean project —  
+a static tool designed to keep your scripts sharp and focused.
 
-## Compatibilidade
+GitHub-inspired interface, made to look clean, act fast, and get out of your way.
 
-- Chrome 60+
-- Firefox 55+
-- Safari 11+
-- Edge 79+
+---
 
-## Licença
+## 📛 Author
 
-MIT License - Uso livre para projetos pessoais e comerciais.
+**LyraEz** (a.k.a **CheadyZ**)  
+Discord: `lyraezk`  
+GitHub: [github.com/LyraEz](https://github.com/LyraEz)
+
+---
+
+## 📄 License
+
+MIT License — Free to use, modify, and improve.  
+Attribution appreciated.
